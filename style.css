@@ -1,0 +1,66 @@
+* {
+  font-family: 'Cabin', sans-serif;
+}
+
+body {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maze {
+  margin-bottom: 30px;
+}
+
+.maze-gen-btn {
+  width: 300px;
+  height: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+  transition: color 0.15s, background-color 0.15s;
+}
+
+.maze-gen-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.dimension-field {
+  margin-top: 20px;
+}
+
+.dimension-input {
+  border: solid 2px black;
+  border-radius: 3px;
+}
+
+.dimension-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.dimension-buttons > button {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 10px;
+  transition: color 0.15s, background-color 0.15s;
+}
+
+.dimension-buttons > button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+span {
+  font-size: 40px;
+  margin-right: 5px;
+}

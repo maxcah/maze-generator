@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">  
+  <title>Maze Generator</title>
+</head>
+<body>
+    <canvas class="maze"></canvas>
+    <button class="maze-gen-btn">Create Maze</button>
+    <div class="dimension-fields-container">
+      <div class="dimension-field">
+        <span class="dimension-text">Dimensions:</span>
+        <span class="rows">10</span>
+        <span>x</span>
+        <span class="columns">10</span>
+      </div>
+      <div class="dimension-buttons">
+        <button class="increase">▲</button>
+        <button class="decrease">▼</button>
+      </div>
+    </div>
+    <script src="maze.js"></script>
+</body>
+</html>
